@@ -1,0 +1,16 @@
+--- #YAML:1.0
+name: WWW-Yahoo-Login
+version: 0.10
+license: perl
+distribution_type: module
+requires:
+  WWW::Mechanize: 0.40
+recommends: {}
+build_requires:
+  Test::More: 0
+conflicts: {}
+provides:
+  WWW::Yahoo::Login:
+    file: lib/WWW/Yahoo/Login.pm
+    version: 0.10
+generated_by: Module::Build version 0.19

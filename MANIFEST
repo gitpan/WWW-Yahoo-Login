@@ -1,0 +1,8 @@
+Build.PL
+Changes
+MANIFEST			This list of files
+META.yml
+Makefile.PL
+README
+lib/WWW/Yahoo/Login.pm
+t/01_login.t

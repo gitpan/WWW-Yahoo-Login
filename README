@@ -1,0 +1,41 @@
+WWW::Yahoo::Login saves you the trouble of working out how the Yahoo login process works.
+
+PREREQUISITES
+
+WWW::Mechanize 
+
+INSTALLATION
+
+You should be able to install WWW::Yahoo::Login in any of the usual ways:
+
+    perl -MCPAN -e 'install WWW::Yahoo::Login'
+
+or
+
+    perl -MCPANPLUS -e 'install WWW::Yahoo::Login'
+
+or 
+
+    perl Makelfile.PL
+    make
+    make test
+    make install
+
+or 
+
+    perl Build.PL
+    ./Build
+    ./Build test
+    ./Build install
+
+TESTS
+
+The tests for this module require a live internet connection. If one 
+isn't present then they'll be skipped. Some of the tests require 
+environment variables to be set with a Yahoo user ID and password. These
+are WYL_USER and WYL_PASS respectively. If these aren't present then
+the relevant tests will be skipped.
+
+For everything else see the POD.
+
+$Id: README,v 1.1 2003/07/31 06:48:12 struan Exp $
